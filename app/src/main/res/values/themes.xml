@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Base application theme. -->
+    <style name="Theme.Ayoo" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="android:windowBackground">@color/light_background</item>
+    </style>
+
+    <style name="Theme.Ayoo.Splash" parent="Theme.SplashScreen">
+        <item name="windowSplashScreenAnimatedIcon">@drawable/ic_launcher_foreground</item>
+        <item name="postSplashScreenTheme">@style/Theme.Ayoo</item>
+    </style>
+</resources>
